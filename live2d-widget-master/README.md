@@ -1,4 +1,5 @@
 # Live2D Widget
+原作者：stevenjoezhang
 
 ![](https://forthebadge.com/images/badges/built-with-love.svg)
 ![](https://forthebadge.com/images/badges/uses-html.svg)
