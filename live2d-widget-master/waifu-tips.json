@@ -1,7 +1,7 @@
 {
 	"mouseover": [{
 		"selector": "#live2d",
-		"text": ["Press i for InfoPort, Press d for DashBoard, Press v for Venue, Press l to Logout"]
+		"text": ["Press i for InfoPort, Press d for DashBoard, Press v for Venue, Press l to Logout。"]
 	}, {
 		"selector": "#waifu-tool-hitokoto",
 		"text": ["Guess what I'm going to say", "I got a lot of idea from ZHANG Ailing"]
