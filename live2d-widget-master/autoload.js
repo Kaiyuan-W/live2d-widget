@@ -27,9 +27,9 @@ function loadExternalResource(url, type) {
 // 加载 waifu.css live2d.min.js waifu-tips.js
 if (screen.width >= 768) {
 	Promise.all([
-		loadExternalResource("https://cdn.jsdelivr.net/gh/Kaiyuan-W/live2d-widget/live2d-widget-master/waifu.css", "css"),
-		loadExternalResource("https://cdn.jsdelivr.net/gh/Kaiyuan-W/live2d-widget/live2d-widget-master/live2d.min.js", "js"),
-		loadExternalResource("https://cdn.jsdelivr.net/gh/Kaiyuan-W/live2d-widget/live2d-widget-master/waifu-tips.js", "js")
+		loadExternalResource(live2d_path + "waifu.css", "css"),
+		loadExternalResource(live2d_path + "live2d.min.js", "js"),
+		loadExternalResource(live2d_path + "waifu-tips.js", "js")
 	]).then(() => {
 		// 配置选项的具体用法见 README.md
 		initWidget({
